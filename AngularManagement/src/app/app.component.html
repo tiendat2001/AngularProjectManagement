@@ -1,2 +1,16 @@
-<h1>dat</h1>
-<app-add-student></app-add-student>
+<h1 class ="title">Student Management</h1>
+
+
+<nav class="navbar">
+    <ul class="nav-list">
+    <li><a routerLink="add">Add Student</a></li>
+    <li><a routerLink="list">List Student</a></li>
+    <li><a routerLink="edit">Edit Student</a></li>
+    <li><a routerLink="login">Login Student</a></li>
+    <li><a routerLink="register">Register Student</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <router-outlet></router-outlet>
+</div>

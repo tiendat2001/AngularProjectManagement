@@ -8,7 +8,7 @@ import { EditStudentComponent } from './components/edit-student/edit-student.com
 import { ListStudentComponent } from './components/list-student/list-student.component';
 import { LoginStudentComponent } from './components/login-student/login-student.component';
 import { RegistrationStudentComponent } from './components/registration-student/registration-student.component';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +20,8 @@ import { RegistrationStudentComponent } from './components/registration-student/
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

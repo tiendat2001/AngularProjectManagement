@@ -1,0 +1,32 @@
+$color_1: #fff;
+$color_2: #ff9900;
+
+/* Thiết lập danh sách nav */
+/* Thiết lập các mục trong danh sách nav */
+/* Thiết lập màu sắc và đường liên kết */
+/* Điều chỉnh màu khi di chuột qua mục */
+.title{
+    text-align: center;
+}
+.nav-list {
+        width: 1200px;
+        list-style: none;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap:50px;
+        background-color: rgb(0, 255, 255);
+        padding: 10px 0;
+        li
+            {
+                a
+                {
+                text-decoration: none;
+                }
+            }
+    
+	// margin: 0 20px;
+	
+
+}
