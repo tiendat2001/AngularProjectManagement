@@ -1,0 +1,40 @@
+$color_1: #fff;
+$background-color_1: #007bff;
+$background-color_2: #0056b3;
+
+.container {
+	
+}
+.title{
+    text-align: center;
+}
+.form{
+    margin-top: 20px;
+  
+
+}
+.form-group {
+	margin-bottom: 15px;
+    width: 1200px;
+    margin:auto;
+    
+}
+.form-control {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+.btn_submit {
+	background-color: $background-color_1;
+	color: $color_1;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	cursor: pointer;
+	&:hover {
+		background-color: $background-color_2;
+	}
+    margin:auto;
+}
+
