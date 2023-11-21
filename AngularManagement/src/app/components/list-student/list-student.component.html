@@ -4,6 +4,7 @@
             <th>ID</th>
             <th>Name</th>
             <th>Email</th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
@@ -11,6 +12,7 @@
             <td>{{student.id}}</td>
             <td>{{student.name}}</td>
             <td>{{student.email}}</td>
+            <td><span (click)="deleteStudent(student.id)">Delete</span></td>
         </tr>
        
         <!-- Thêm dòng cho mỗi thông tin cần quản lý -->

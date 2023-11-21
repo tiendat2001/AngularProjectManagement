@@ -26,6 +26,11 @@ $background-color_2: #0056b3;
 	border-radius: 3px;
 }
 .btn_submit {
+	
+    text-align: center;
+
+	button{
+	margin-top:10px;
 	background-color: $background-color_1;
 	color: $color_1;
 	border: none;
@@ -35,6 +40,6 @@ $background-color_2: #0056b3;
 	&:hover {
 		background-color: $background-color_2;
 	}
-    margin:auto;
+	}
 }
 

@@ -1,9 +1,24 @@
 {
   "students": [
-    { "id": 1, "name": "dat", "email": "dat@gmail.com" },
-    { "id": 2, "name": "nguyet", "email": "dat@gmail.com" },
-    { "id": 3, "name": "anh", "email": "dat@gmail.com" }
-
+    {
+      "id": 1,
+      "name": "dat",
+      "email": "dat@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "nguyet",
+      "email": "dat@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "anh",
+      "email": "dat@gmail.com"
+    },
+    {
+      "name": "tung",
+      "email": "tung@gmail.com",
+      "id": 4
+    }
   ]
-  
 }
